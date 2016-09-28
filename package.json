@@ -30,6 +30,7 @@
       "dictGet": false,
       "getJSON": false,
       "has_location": false,
+      "has_site_location": false,
       "limit": false,
       "localStorageTest": false,
       "offline": false,

@@ -138,3 +138,10 @@ function attributeEntry(el, label, value) {
 
   return td
 }
+
+/* FFIL onyl */
+
+function has_site_location(d) {
+  if (d.nodeinfo.system !== undefined && d.nodeinfo.system.site_code == "ffil")
+    return has_location(d)
+}
